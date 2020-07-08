@@ -1,0 +1,17 @@
+body {
+}
+
+.techContainer {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
