@@ -7,7 +7,7 @@ const Tech = () => {
       <h2 className="title">Skills</h2>
       <div className="skillsContainer">
         <div className="skills">
-          <h3>Languages</h3>
+          <h3 className="skillTitle">Languages</h3>
           <ul>
             <li>JavaScript</li>
             <li>Java</li>
@@ -16,7 +16,7 @@ const Tech = () => {
         </div>
 
         <div className="skills">
-          <h3>Frameworks</h3>
+          <h3 className="skillTitle">Frameworks</h3>
           <ul>
             <li>React</li>
             <li>Struts2</li>
@@ -25,7 +25,7 @@ const Tech = () => {
         </div>
 
         <div className="skills">
-          <h3>Tools</h3>
+          <h3 className="skillTitle">Tools</h3>
           <ul>
             <li>Git</li>
             <li>Jira/Confluence</li>

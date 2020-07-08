@@ -12,6 +12,10 @@
     margin-left: 3%;
 }
 
+ul {
+    margin-top: 3px;
+}
+
 .skillsContainer {
     display: flex;
     justify-content: space-around;
