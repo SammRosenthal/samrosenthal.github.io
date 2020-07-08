@@ -1,6 +1,3 @@
-body {
-}
-
 .techContainer {
     margin-top: 2%;
     margin-bottom: 2%;
@@ -12,6 +9,14 @@ body {
 }
 
 .title {
+    margin-left: 3%;
+}
+
+.skillsContainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.skills {
+    flex-direction: space-around;
 }
