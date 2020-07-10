@@ -1,6 +1,7 @@
 import React from "react";
 import Title from "./components/title/Title";
 import Tech from "./components/tech/Tech";
+import Projects from "./components/projects/Projects";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import "./app.css";
@@ -13,6 +14,8 @@ function App() {
       <Title />
       <hr />
       <Tech />
+      <hr />
+      <Projects />
       <hr />
     </>
   );
