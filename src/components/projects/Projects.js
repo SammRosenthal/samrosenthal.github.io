@@ -1,9 +1,13 @@
 import React from "react";
+import Project from "./project/Project";
+import "./projects.css";
 
 const Projects = () => {
   return (
     <div>
-      Placeholder for my projects projects will be their own reusable component
+      <Project />
+      <Project />
+      <Project />
     </div>
   );
 };
