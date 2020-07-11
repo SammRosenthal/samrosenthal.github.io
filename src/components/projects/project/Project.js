@@ -16,9 +16,20 @@ const Project = (props) => {
       <a>{props.link}</a>
       <p id="description">{props.desc}</p>
       <br />
-      <p id="tech">todo</p>
+      <div id="tech">
+        <p>Tech:</p>
+        <ul>
+          {props.tech.map((e) => {
+            return <li>{e}</li>;
+          })}
+        </ul>
+      </div>
     </div>
   );
+};
+
+Project.defaultProps = {
+  tech: [],
 };
 
 export default Project;
