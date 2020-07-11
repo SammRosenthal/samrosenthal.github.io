@@ -1,16 +1,21 @@
 import React from "react";
 import "./project.css";
 
-const Project = () => {
+interface props {
+  title: string;
+  link: string;
+  desc: string;
+  tech: Array<string>;
+}
+
+const Project = (props) => {
   return (
     <div className="projectContainer">
-      <h1>Project Title</h1>
-      <a>Project Link</a>
-      <p id="description">
-        Placeholder of a project that will be in the Projects component
-      </p>
+      <h1>{props.title}</h1>
+      <a>{props.link}</a>
+      <p id="description">{props.desc}</p>
       <br />
-      <p id="tech">placeholder tech</p>
+      <p id="tech">todo</p>
     </div>
   );
 };
