@@ -4,7 +4,8 @@ import "./projects.css";
 
 const Projects = () => {
   return (
-    <div>
+    <div className="parentProjectContainer">
+      <Project />
       <Project />
       <Project />
       <Project />
