@@ -1,12 +1,13 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 import "./project.css";
 
-interface props {
-  title: string;
-  link: string;
-  desc: string;
-  tech: Array<string>;
-}
+/*
+ * title: string
+ * link: string
+ * linkName: string
+ * desc: string
+ * tech: Array<string>
+ */
 
 const Project = (props) => {
   return (
