@@ -1,4 +1,5 @@
-import React, { FunctionComponent } from "react";
+import React from "react";
+import Button from "react-bootstrap/Button";
 import "./project.css";
 
 /*
@@ -13,9 +14,11 @@ const Project = (props) => {
   return (
     <div className="projectContainer">
       <h1>{props.title}</h1>
-      <a>{props.link}</a>
+      &nbsp;{" "}
+      <Button className="customButton">
+        <a href={props.link}>More info</a>
+      </Button>
       <p id="description">{props.desc}</p>
-      <br />
       <div id="tech">
         <p>Tech:</p>
         <ul>

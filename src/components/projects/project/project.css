@@ -1,6 +1,21 @@
 .projectContainer {
-    background-color: red;
-    height: 300px;
-    width: 250px;
+    border: 1px solid black;
+    height: 350px;
+    width: 275px;
     margin: 5px;
+    padding: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-justify: space-evenly;
 }
+
+.customButton {
+    border: none;
+    background-color: none;
+}
+
+.projectContainer a {
+    text-decoration: none;
+}
+
