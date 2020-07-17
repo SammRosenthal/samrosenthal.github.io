@@ -13,7 +13,7 @@ const Experience = () => {
         </h3>
       </div>
       <div className="jobContent">
-        <ul className="">
+        <ul>
           <li>
             Updated the local build environment to allow all Java developers to
             be able to work from home for Covd-19 by update our local WebSphere
