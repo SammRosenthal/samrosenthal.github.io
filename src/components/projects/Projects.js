@@ -4,7 +4,7 @@ import "./projects.css";
 
 const Projects = () => {
   return (
-    <>
+    <div className="parentProjectContainer">
       <div>
         <h2 class="title">Projects</h2>
       </div>
@@ -24,7 +24,7 @@ const Projects = () => {
           tech={["TypeScript", "React", "React-Bootstrap"]}
         />
       </div>
-    </>
+    </div>
   );
 };
 
