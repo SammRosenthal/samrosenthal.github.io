@@ -1,0 +1,10 @@
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.jobTitle {
+}
