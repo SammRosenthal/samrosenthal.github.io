@@ -31,6 +31,29 @@ const jobInfo = [
       ],
     ],
   },
+  {
+    title: ["AAA, St. Louis MO", "Associate Software Engineer"],
+    tenure: "June 2019 - April 2020",
+    description: [
+      [
+        {
+          summary: `Learned Java with no background and started providing production code within 2 months.`,
+          details: [],
+        },
+        {
+          summary: `Assisted new developers with setting up their local development environment and taught the artchitecture of our application.`,
+          details: [],
+        },
+        {
+          summary: `Co-lead a brand new feature to our application intrudcuing new technologies into it like Bootstrap and React.`,
+          details: [
+            `Provided the business with a presentaiton on the value of adding new technologies to our application and provided a proof
+                  of concept to help them understand the value.`,
+          ],
+        },
+      ],
+    ],
+  },
 ];
 
 const Experiences = () => {
@@ -41,6 +64,7 @@ const Experiences = () => {
       </div>
       <div className="experienceContainer">
         <Experience jobInfo={jobInfo[0]} />
+        <Experience jobInfo={jobInfo[1]} />
       </div>
     </div>
   );

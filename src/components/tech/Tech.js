@@ -9,8 +9,8 @@ const Tech = () => {
         <div className="skills">
           <h3 className="skillTitle">Languages</h3>
           <ul>
-            <li>JavaScript</li>
             <li>Java</li>
+            <li>JavaScript</li>
             <li>Python</li>
           </ul>
         </div>
@@ -21,6 +21,7 @@ const Tech = () => {
             <li>React</li>
             <li>Struts2</li>
             <li>Spring Boot</li>
+            <li>Node</li>
           </ul>
         </div>
 
@@ -29,7 +30,7 @@ const Tech = () => {
           <ul>
             <li>Git</li>
             <li>Jira/Confluence</li>
-            <li>Windows/Mac/Debian OS</li>
+            <li>Windows/Mac/Linux</li>
           </ul>
         </div>
       </div>
