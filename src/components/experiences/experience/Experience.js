@@ -1,15 +1,15 @@
 import React from "react";
 import "./experience.css";
 
-const Experience = () => {
+const Experience = (props) => {
   return (
     <div className="titleContainer">
       <div className="titleSection">
         <h1 className="jobTitle">
-          <b>AAA, Costa Mesa CA</b> - Software Engineer
+          <b>{props.jobInfo.title[0]}</b> - {props.jobInfo.title[1]}
         </h1>
         <h3 className="jobDate">
-          <i>April 2020 - Present</i>
+          <i>{props.jobInfo.tenure}</i>
         </h3>
       </div>
       <div className="jobContent">
