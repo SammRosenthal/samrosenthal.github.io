@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/samrosenthal.dev/static/css/main.574af0fa.chunk.css",
-    "main.js": "/samrosenthal.dev/static/js/main.278bf346.chunk.js",
-    "main.js.map": "/samrosenthal.dev/static/js/main.278bf346.chunk.js.map",
-    "runtime-main.js": "/samrosenthal.dev/static/js/runtime-main.8872c9e4.js",
-    "runtime-main.js.map": "/samrosenthal.dev/static/js/runtime-main.8872c9e4.js.map",
-    "static/js/2.09331fe7.chunk.js": "/samrosenthal.dev/static/js/2.09331fe7.chunk.js",
-    "static/js/2.09331fe7.chunk.js.map": "/samrosenthal.dev/static/js/2.09331fe7.chunk.js.map",
-    "index.html": "/samrosenthal.dev/index.html",
-    "precache-manifest.003c5157fca17bb81ca0eff65bf8aac0.js": "/samrosenthal.dev/precache-manifest.003c5157fca17bb81ca0eff65bf8aac0.js",
-    "service-worker.js": "/samrosenthal.dev/service-worker.js",
-    "static/css/main.574af0fa.chunk.css.map": "/samrosenthal.dev/static/css/main.574af0fa.chunk.css.map",
-    "static/js/2.09331fe7.chunk.js.LICENSE.txt": "/samrosenthal.dev/static/js/2.09331fe7.chunk.js.LICENSE.txt"
+    "main.css": "/samrosenthal.github.io/static/css/main.574af0fa.chunk.css",
+    "main.js": "/samrosenthal.github.io/static/js/main.278bf346.chunk.js",
+    "main.js.map": "/samrosenthal.github.io/static/js/main.278bf346.chunk.js.map",
+    "runtime-main.js": "/samrosenthal.github.io/static/js/runtime-main.d3fa2192.js",
+    "runtime-main.js.map": "/samrosenthal.github.io/static/js/runtime-main.d3fa2192.js.map",
+    "static/js/2.09331fe7.chunk.js": "/samrosenthal.github.io/static/js/2.09331fe7.chunk.js",
+    "static/js/2.09331fe7.chunk.js.map": "/samrosenthal.github.io/static/js/2.09331fe7.chunk.js.map",
+    "index.html": "/samrosenthal.github.io/index.html",
+    "precache-manifest.a73ac2255a52e7af3eccc4af321526f4.js": "/samrosenthal.github.io/precache-manifest.a73ac2255a52e7af3eccc4af321526f4.js",
+    "service-worker.js": "/samrosenthal.github.io/service-worker.js",
+    "static/css/main.574af0fa.chunk.css.map": "/samrosenthal.github.io/static/css/main.574af0fa.chunk.css.map",
+    "static/js/2.09331fe7.chunk.js.LICENSE.txt": "/samrosenthal.github.io/static/js/2.09331fe7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8872c9e4.js",
+    "static/js/runtime-main.d3fa2192.js",
     "static/js/2.09331fe7.chunk.js",
     "static/css/main.574af0fa.chunk.css",
     "static/js/main.278bf346.chunk.js"
