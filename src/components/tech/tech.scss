@@ -8,9 +8,6 @@
     flex-direction: column;
 }
 
-.title {
-    margin-left: 3%;
-}
 
 ul {
     margin-top: 3px;
@@ -50,12 +47,15 @@ ul {
 
     .skills > ul {
         list-style: none;
-        margin-left: -20px;
+        margin-left: -43px;
+        padding-top: 6px;
     }
 
     .skillTitle {
-        margin-left: 15px;
-        margin-bottom: 1px;
+    }
+
+    .techContainer {
+        text-align:center;
     }
 
 }

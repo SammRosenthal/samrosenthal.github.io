@@ -1,5 +1,5 @@
 import React from "react";
-import "./tech.css";
+import "./tech.scss";
 
 const Tech = () => {
   return (
@@ -21,7 +21,6 @@ const Tech = () => {
             <li>React</li>
             <li>Struts2</li>
             <li>Spring Boot</li>
-            <li>Node</li>
           </ul>
         </div>
 

@@ -1,11 +1,12 @@
 body {
     margin-left: 12%;
     margin-right: 12%;
+    overflow-x: hidden;
 }
 
 hr {
-    margin-left: -20%;
-    margin-right: -20%;
+    margin-left: -16%;
+    margin-right: -16%;
 }
 
 .appContainer {
