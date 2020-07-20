@@ -20,7 +20,6 @@ const Experience = (props) => {
                 {e.summary}
                 <ul>
                   {e.details.map((v) => {
-                    console.log(v);
                     return <li className="jobDetails">{v}</li>;
                   })}
                 </ul>
