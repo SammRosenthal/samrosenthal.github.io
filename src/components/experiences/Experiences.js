@@ -1,5 +1,5 @@
 import React from "react";
-import "./experiences.css";
+import "./experiences.scss";
 import Experience from "./experience/Experience";
 
 const jobInfo = [
@@ -22,7 +22,7 @@ const jobInfo = [
               that were causing long load times for end-users`,
           details: [
             `Updated logging services (Log4j) to be able to look at production logs and identify
-                  issues easier`,
+                  issues easier.`,
             `Re-wrote how our application called services to increase load times and removed over 18,000
                   service calls per day.`,
             `Reduced average end-user load times by over half a second.`,
@@ -60,7 +60,7 @@ const Experiences = () => {
   return (
     <div className="parentExperienceContainer ">
       <div>
-        <h2 className="title">Experience</h2>
+        <h2 className="experienceTitle">Experience</h2>
       </div>
       <div className="experienceContainer">
         <Experience jobInfo={jobInfo[0]} />
