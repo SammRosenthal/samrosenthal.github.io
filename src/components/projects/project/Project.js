@@ -22,8 +22,8 @@ const Project = (props) => {
       <div id="tech">
         <p className="techTitle">Tech:</p>
         <ul>
-          {props.tech.map((e) => {
-            return <li>{e}</li>;
+          {props.tech.map((e, i) => {
+            return <li key={i}>{e}</li>;
           })}
         </ul>
       </div>

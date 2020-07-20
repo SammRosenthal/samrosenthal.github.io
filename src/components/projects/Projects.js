@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <div className="parentProjectContainer">
       <div>
-        <h2 class="title">Projects</h2>
+        <h2 className="title">Projects</h2>
       </div>
       <div className="projectsContainer">
         <Project
