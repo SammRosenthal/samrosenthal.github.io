@@ -20,7 +20,7 @@ const Project = (props) => {
       </Button>
       <p id="description">{props.desc}</p>
       <div id="tech">
-        <p>Tech:</p>
+        <p className="techTitle">Tech:</p>
         <ul>
           {props.tech.map((e) => {
             return <li>{e}</li>;

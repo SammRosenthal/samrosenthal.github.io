@@ -10,6 +10,10 @@
     text-justify: space-evenly;
 }
 
+.projectContainer > h1 {
+    text-align: center;
+}
+
 .customButton {
     border: none;
     background-color: none;
@@ -18,4 +22,10 @@
 .projectContainer a {
     text-decoration: none;
 }
+
+.techTitle {
+    margin: 2px auto;
+}
+
+
 

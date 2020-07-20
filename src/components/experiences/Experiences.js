@@ -18,7 +18,7 @@ const jobInfo = [
           ],
         },
         {
-          summary: `Identified and corrected issues with how our application called services 
+          summary: `Identified and corrected issues with how our application called services
               that were causing long load times for end-users`,
           details: [
             `Updated logging services (Log4j) to be able to look at production logs and identify
@@ -60,7 +60,7 @@ const Experiences = () => {
   return (
     <div className="parentExperienceContainer ">
       <div>
-        <h2 class="title">Experiences</h2>
+        <h2 class="title">Experience</h2>
       </div>
       <div className="experienceContainer">
         <Experience jobInfo={jobInfo[0]} />

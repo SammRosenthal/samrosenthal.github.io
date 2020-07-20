@@ -13,7 +13,7 @@ const Experience = (props) => {
         </h3>
       </div>
       <div className="jobContent">
-        <ul>
+        <ul className="jobSummary">
           {props.jobInfo.description[0].map((e) => {
             return (
               <li>
@@ -21,7 +21,7 @@ const Experience = (props) => {
                 <ul>
                   {e.details.map((v) => {
                     console.log(v);
-                    return <li>{v}</li>;
+                    return <li className="jobDetails">{v}</li>;
                   })}
                 </ul>
               </li>

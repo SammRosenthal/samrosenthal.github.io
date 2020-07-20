@@ -24,3 +24,38 @@ ul {
 .skills {
     flex-direction: space-around;
 }
+
+@media(max-width: 900px) {
+    .title {
+        text-align: center;
+    }
+
+    .skillContainer {
+        margin: 0 auto;
+    }
+
+    .skillTitle {
+        text-align: center;
+    }
+}
+
+@media(max-width: 700px) {
+    .skillsContainer {
+        flex-direction: column;
+    }
+
+    .skills {
+        text-align: center;
+    }
+
+    .skills > ul {
+        list-style: none;
+        margin-left: -20px;
+    }
+
+    .skillTitle {
+        margin-left: 15px;
+        margin-bottom: 1px;
+    }
+
+}

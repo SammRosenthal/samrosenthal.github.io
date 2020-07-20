@@ -11,7 +11,7 @@ library.add(fab);
 
 function App() {
   return (
-    <>
+    <div className='appContainer'>
       <Title />
       <hr />
       <Tech />
@@ -19,7 +19,7 @@ function App() {
       <Projects />
       <hr />
       <Experiences />
-    </>
+    </div>
   );
 }
 
