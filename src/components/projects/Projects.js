@@ -12,7 +12,7 @@ const Projects = () => {
         <Project
           title="RuneLite"
           link="https://github.com/runelite/runelite"
-          desc="Contributor to this open source software to help maintane the most popular OldSchool Runescape client."
+          desc="Contributor to this open source software to help maintain the most popular OldSchool Runescape client."
           tech={["Java", "Maven", "Google Lombok"]}
         />
         <Project
