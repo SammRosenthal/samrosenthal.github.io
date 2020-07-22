@@ -54,6 +54,32 @@ const jobInfo = [
       ],
     ],
   },
+  {
+    title: ["AAA, Costa Mesa CA", "Budget Analyst"],
+    tenure: "April 2018 - October 2018",
+    description: [
+      [
+        {
+          summary: `Administered the Request to Hire process for the IT business unit.`,
+          details: [
+            `Organized and automated bi-weekly reports on open and filled positions within IS.`,
+          ],
+        },
+        {
+          summary: `Served as a liaison between IS managers and Finance to help budget for projects and new hires.`,
+          details: [],
+        },
+        {
+          summary: `Used SQL queries to help upgrade the manual task of sorting open and filled positions to allows us
+                to provide more accurate forecasting.`,
+          details: [
+            `Using this data we were able to provide better explinations on budget variances, forecast accruals, and provide more 
+              information on contractor impact per project.`,
+          ],
+        },
+      ],
+    ],
+  },
 ];
 
 const Experiences = () => {
@@ -65,6 +91,7 @@ const Experiences = () => {
       <div className="experienceContainer">
         <Experience jobInfo={jobInfo[0]} />
         <Experience jobInfo={jobInfo[1]} />
+        <Experience jobInfo={jobInfo[2]} />
       </div>
     </div>
   );
