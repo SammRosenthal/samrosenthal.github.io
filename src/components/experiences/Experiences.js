@@ -9,6 +9,15 @@ const jobInfo = [
     description: [
       [
         {
+          summary: `Lead the rewrite of one of the most used screens for our insurance sales application and mentored newer developers 
+            about best practices and the architecture of our application while doing it.`,
+          details: [
+            `Helped our application extend into new markets and reduced the development time for that to be possible by almost 50%.`,
+            `Worked with multiple teams handling some of our back-end services to make sure there is a smooth transitionion and minimize any downtime
+              in testing environments while this was being implemented.`,
+          ],
+        },
+        {
           summary: `Updated the local build environment to allow all Java developers
         to be able to work from home for Covid-19 by updating our local WebSphere environment.`,
           details: [

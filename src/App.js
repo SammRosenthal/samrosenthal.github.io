@@ -11,7 +11,7 @@ library.add(fab);
 
 function App() {
   return (
-    <div className='appContainer'>
+    <div className="appContainer">
       <Title />
       <hr />
       <Tech />
