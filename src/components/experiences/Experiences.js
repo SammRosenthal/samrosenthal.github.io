@@ -13,7 +13,7 @@ const jobInfo = [
             about best practices and the architecture of our application while doing it.`,
           details: [
             `Helped our application extend into new markets and reduced the development time for that to be possible by almost 50%.`,
-            `Worked with multiple teams handling some of our back-end services to make sure there is a smooth transitionion and minimize any downtime
+            `Worked with multiple teams handling some of our back-end services to make sure there is a smooth transition and minimize any downtime
               in testing environments while this was being implemented.`,
           ],
         },
