@@ -9,7 +9,7 @@ const jobInfo = [
     description: [
       [
         {
-          summary: `Lead the rewrite of one of the most used screens for our insurance sales application and mentored newer developers 
+          summary: `Lead the rewrite of one of the most used screens for our insurance sales application and mentored newer developers
             about best practices and the architecture of our application while doing it.`,
           details: [
             `Helped our application extend into new markets and reduced the development time for that to be possible by almost 50%.`,
@@ -54,7 +54,7 @@ const jobInfo = [
           details: [],
         },
         {
-          summary: `Co-lead a brand new feature to our application intrudcuing new technologies into it like Bootstrap and React.`,
+          summary: `Co-lead a brand new feature to our application introducing new technologies into it like Bootstrap and React.`,
           details: [
             `Provided the business with a presentaiton on the value of adding new technologies to our application and provided a proof
                   of concept to help them understand the value.`,
@@ -82,7 +82,7 @@ const jobInfo = [
           summary: `Used SQL queries to help upgrade the manual task of sorting open and filled positions to allows us
                 to provide more accurate forecasting.`,
           details: [
-            `Using this data we were able to provide better explinations on budget variances, forecast accruals, and provide more 
+            `Using this data we were able to provide better explanations on budget variances, forecast accruals, and provide more
               information on contractor impact per project.`,
           ],
         },
