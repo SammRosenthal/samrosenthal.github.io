@@ -36,7 +36,10 @@ const Title = () => {
           </a>
         </span>
         <h4>
-          <a href="./SamRosenthalResume.pdf" download>
+          <a
+            href="https://github.com/SammRosenthal/samrosenthal.github.io/raw/master/src/components/title/SamRosenthalResume.pdf"
+            download="Sam Rosenthal Resume"
+          >
             <FontAwesomeIcon icon={["fas", "file"]} /> Resume
           </a>
         </h4>
