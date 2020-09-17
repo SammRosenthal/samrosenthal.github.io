@@ -35,6 +35,11 @@ const Title = () => {
             <FontAwesomeIcon icon={["fab", "linkedin"]} />
           </a>
         </span>
+        <h4>
+          <a href="./SamRosenthalResume.pdf" download>
+            <FontAwesomeIcon icon={["fas", "file"]} /> Resume
+          </a>
+        </h4>
       </div>
     </div>
   );
